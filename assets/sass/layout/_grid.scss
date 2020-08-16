@@ -1,0 +1,80 @@
+@media (min-width: 853px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas: ". article__h2 article__h2 article__h2 article__h2 article__h2 article__h2 ." ". article__img article__img article__img article__texto article__texto article__texto ." ". article__img article__img article__img article__texto article__texto article__texto ." ". article__img article__img article__img article__texto article__texto article__texto ." ". article__img article__img article__img article__texto article__texto article__texto .";
+  }
+  .article__h2 {
+    grid-area: article__h2;
+  }
+  .article__img {
+    grid-area: article__img;
+  }
+  .article__texto {
+    grid-area: article__texto;
+  }
+  .cajas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas: ". . . . . . . . . . ." ". . . . . . . . . . ." ". . . cajas_h2 cajas_h2 cajas_h2 cajas_h2 cajas_h2 . . ." ". caja1 caja1 caja1 caja1 . caja2 caja2 caja2 caja2 ." ". caja1 caja1 caja1 caja1 . caja2 caja2 caja2 caja2 ." ". caja1 caja1 caja1 caja1 . caja2 caja2 caja2 caja2 ." ". caja1 caja1 caja1 caja1 . caja2 caja2 caja2 caja2 ." ". caja1 caja1 caja1 caja1 . caja2 caja2 caja2 caja2 ." ". caja1 caja1 caja1 caja1 . caja2 caja2 caja2 caja2 ." ". caja1 caja1 caja1 caja1 . caja2 caja2 caja2 caja2 ." ". caja1 caja1 caja1 caja1 . caja2 caja2 caja2 caja2 .";
+  }
+
+  .caja1 {
+    grid-area: caja1;
+  }
+
+  .caja2 {
+    grid-area: caja2;
+  }
+
+  .cajas_h2 {
+    grid-area: cajas_h2;
+  }
+}
+
+@media (max-width: 852px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas: ". article__h2 article__h2 article__h2 article__h2 article__h2 ." ". article__img article__img article__img article__img article__img ." ". article__img article__img article__img article__img article__img ." ". article__img article__img article__img article__img article__img ." ". article__img article__img article__img article__img article__img ." ". article__texto article__texto article__texto article__texto article__texto ." ". article__texto article__texto article__texto article__texto article__texto ." ". article__texto article__texto article__texto article__texto article__texto ." ". article__texto article__texto article__texto article__texto article__texto .";
+  }
+
+  .article__h2 {
+    grid-area: article__h2;
+  }
+
+  .article__texto {
+    grid-area: article__texto;
+  }
+
+  .article__img {
+    grid-area: article__img;
+  }
+  .cajas {
+    padding-top: 783px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas: ". . . . cajas_h2 cajas_h2 cajas_h2 cajas_h2 cajas_h2 cajas_h2 cajas_h2 . . . ." ". caja1 caja1 caja1 caja1 caja1 caja1 caja1 caja1 caja1 caja1 caja1 caja1 caja1 ." ". caja1 caja1 caja1 caja1 caja1 caja1 caja1 caja1 caja1 caja1 caja1 caja1 caja1 ." ". caja1 caja1 caja1 caja1 caja1 caja1 caja1 caja1 caja1 caja1 caja1 caja1 caja1 ." ". caja1 caja1 caja1 caja1 caja1 caja1 caja1 caja1 caja1 caja1 caja1 caja1 caja1 ." ". caja1 caja1 caja1 caja1 caja1 caja1 caja1 caja1 caja1 caja1 caja1 caja1 caja1 ." ". caja1 caja1 caja1 caja1 caja1 caja1 caja1 caja1 caja1 caja1 caja1 caja1 caja1 ." ". . . . . . . . . . . . . . ." ". caja2 caja2 caja2 caja2 caja2 caja2 caja2 caja2 caja2 caja2 caja2 caja2 caja2 ." ". caja2 caja2 caja2 caja2 caja2 caja2 caja2 caja2 caja2 caja2 caja2 caja2 caja2 ." ". caja2 caja2 caja2 caja2 caja2 caja2 caja2 caja2 caja2 caja2 caja2 caja2 caja2 ." ". caja2 caja2 caja2 caja2 caja2 caja2 caja2 caja2 caja2 caja2 caja2 caja2 caja2 ." ". caja2 caja2 caja2 caja2 caja2 caja2 caja2 caja2 caja2 caja2 caja2 caja2 caja2 ." ". caja2 caja2 caja2 caja2 caja2 caja2 caja2 caja2 caja2 caja2 caja2 caja2 caja2 .";
+  }
+
+  .caja1 {
+    grid-area: caja1;
+  }
+
+  .cajas_h2 {
+    grid-area: cajas_h2;
+  }
+
+  .caja2 {
+    grid-area: caja2;
+  }
+ 
+}
